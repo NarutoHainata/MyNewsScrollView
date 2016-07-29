@@ -13,6 +13,8 @@
 		2F2755FB1D3CA44B00998813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2755F91D3CA44B00998813 /* Main.storyboard */; };
 		2F2755FD1D3CA44B00998813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2755FC1D3CA44B00998813 /* Assets.xcassets */; };
 		2F2756001D3CA44B00998813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2755FE1D3CA44B00998813 /* LaunchScreen.storyboard */; };
+		2F2756091D3CA6A600998813 /* MryPageTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2756081D3CA6A600998813 /* MryPageTable.m */; };
+		2F27560C1D3CC92C00998813 /* BtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F27560B1D3CC92C00998813 /* BtnView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2F2755FC1D3CA44B00998813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F2755FF1D3CA44B00998813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F2756011D3CA44B00998813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2756071D3CA6A600998813 /* MryPageTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MryPageTable.h; sourceTree = "<group>"; };
+		2F2756081D3CA6A600998813 /* MryPageTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MryPageTable.m; sourceTree = "<group>"; };
+		2F27560A1D3CC92C00998813 /* BtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnView.h; sourceTree = "<group>"; };
+		2F27560B1D3CC92C00998813 /* BtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				2F2755F41D3CA44B00998813 /* AppDelegate.m */,
 				2F2755F61D3CA44B00998813 /* ViewController.h */,
 				2F2755F71D3CA44B00998813 /* ViewController.m */,
+				2F27560A1D3CC92C00998813 /* BtnView.h */,
+				2F27560B1D3CC92C00998813 /* BtnView.m */,
+				2F2756071D3CA6A600998813 /* MryPageTable.h */,
+				2F2756081D3CA6A600998813 /* MryPageTable.m */,
 				2F2755F91D3CA44B00998813 /* Main.storyboard */,
 				2F2755FC1D3CA44B00998813 /* Assets.xcassets */,
 				2F2755FE1D3CA44B00998813 /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			files = (
 				2F2755F81D3CA44B00998813 /* ViewController.m in Sources */,
 				2F2755F51D3CA44B00998813 /* AppDelegate.m in Sources */,
+				2F2756091D3CA6A600998813 /* MryPageTable.m in Sources */,
+				2F27560C1D3CC92C00998813 /* BtnView.m in Sources */,
 				2F2755F21D3CA44B00998813 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
